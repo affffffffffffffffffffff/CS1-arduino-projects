@@ -1,6 +1,9 @@
 # arduino-projects
-Hosts all the Arduino projects for CS1 Spring 2023.
-This does not include the board design. Cope.
+Hosts all the Arduino projects for Advanced CS1 Spring 2023 with Armand Ramones.
+* This does not include the board design. Cope.
+* This code is provided as-is with no documentation. 
+* Code provided in good faith. 
+* Any copying for cheating/plagiarism reasons is expressly prohibited.
 
 ## jan13a
 Two simple blinking LEDs.
