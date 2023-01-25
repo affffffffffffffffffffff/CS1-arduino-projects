@@ -5,7 +5,7 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 * Code provided in good faith. 
 * Any copying for cheating/plagiarism reasons is expressly prohibited.
 
-# Cycles
+## Cycles
 ### Cycle 1: 
 22 August 2022 - 30 September 2022<br>
 ### Cycle 2: 
@@ -19,14 +19,14 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 ### Cycle 6: 
 17 April 2023 - 31 May 2023<br>
 
-# Projects
-## jan13a
+## Projects
+### jan13a
 Two simple blinking LEDs.
-## jan17a
+### jan17a
 Five LEDs that "crawl" across the prototype board. Two LEDs are on at a time.
-## jan18a
+### jan18a
 Four LEDs based on timing data, syncing with timing tables in Excel.
-## jan23a
+### jan23a
 Cycles through different colors, fading in and out.
 `noLoopConstruct.cpp` attempts to recreate `original.cpp`/`sketch_jan23a.ino` without using any loop constructs.
 > Besides control flow, modulus is another viable solution. 
