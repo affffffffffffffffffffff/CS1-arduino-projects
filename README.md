@@ -19,6 +19,7 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 ### Cycle 6: 
 17 April 2023 - 31 May 2023<br>
 
+# Projects
 ## jan13a
 Two simple blinking LEDs.
 ## jan17a
