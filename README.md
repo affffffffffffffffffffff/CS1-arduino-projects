@@ -24,7 +24,9 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───original.cpp
 │   └───sketch_jan23a.ino
 └───sketch_jan25a
-    └───sketch_jan25a.ino
+│   └───sketch_jan25a.ino
+└───sketch_jan27a
+    └───sketch_jan27a.ino
 ```
 
 </details>
@@ -64,3 +66,5 @@ Cycles through different colors, fading in and out.
 > Besides control flow, modulus is another viable solution. 
 ### jan25a
 Four LEDs based on timing data, syncing with timing tables in Excel. Again.
+### jan27a
+Digital input with two buttons. One button turns the LED on, and one button turns the LED off.
