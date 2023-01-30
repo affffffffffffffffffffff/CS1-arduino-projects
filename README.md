@@ -23,10 +23,12 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───noLoopConstruct.cpp
 │   ├───original.cpp
 │   └───sketch_jan23a.ino
-└───sketch_jan25a
+├───sketch_jan25a
 │   └───sketch_jan25a.ino
-└───sketch_jan27a
-    └───sketch_jan27a.ino
+├───sketch_jan27a
+│   └───sketch_jan27a.ino
+└───sketch_jan30a
+    └───sketch_jan30a.ino
 ```
 
 </details>
@@ -65,6 +67,9 @@ Cycles through different colors, fading in and out.
 `noLoopConstruct.cpp` attempts to recreate `original.cpp`/`sketch_jan23a.ino` without using any loop constructs.
 > Besides control flow, modulus is another viable solution. 
 ### jan25a
-Four LEDs based on timing data, syncing with timing tables in Excel. Again.
+Four LEDs based on timing data, syncing with timing tables in Excel, again.
 ### jan27a
 Digital input with two buttons. One button turns the LED on, and one button turns the LED off.
+### jan30a
+Digital input with two buttons, again. One button simultaneously turns the LED on and speaker off, and one button simultaneously turns the LED off and speaker on.
+
