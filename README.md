@@ -27,8 +27,11 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   └───sketch_jan25a.ino
 ├───sketch_jan27a
 │   └───sketch_jan27a.ino
-└───sketch_jan30a
-    └───sketch_jan30a.ino
+├───sketch_jan30a
+│   └───sketch_jan30a.ino
+└───sketch_jan31a
+    ├───sketch_jan31a.ino
+    └───pitches.h
 ```
 
 </details>
@@ -72,4 +75,5 @@ Four LEDs based on timing data, syncing with timing tables in Excel, again.
 Digital input with two buttons. One button turns the LED on, and one button turns the LED off.
 ### jan30a
 Digital input with two buttons, again. One button simultaneously turns the LED on and speaker off, and one button simultaneously turns the LED off and speaker on.
-
+### jan31a
+Playing a passive buzzer. The melody is terrible, but it sets up the infrastructure code.
