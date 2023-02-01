@@ -30,8 +30,9 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 ├───sketch_jan30a
 │   └───sketch_jan30a.ino
 └───sketch_jan31a
+    ├───pitches.h
     ├───sketch_jan31a.ino
-    └───pitches.h
+    └───testingSongNotes.cpp
 ```
 
 </details>
