@@ -4,6 +4,9 @@
 bpm 175 - 180
 
 eighth note = delay(333);
+
+music used: https://th.bing.com/th/id/OIP.WAFq8KYjc9Vf0G57E6zVJQHaK1?pid=ImgDet&rs=1
+
 */
 
 // code to translate library's staff notation to jianpu notation
