@@ -182,4 +182,7 @@ double length[] {
 // plays note for length
 delay((int)(333 * length[i]));
 
+// MAKE SURE TO USE RIGHT DATA TYPE
+// sizeof() returns in BYTES, NOT INT
 
+for (int i = 0; i < (sizeof(notes)/sizeof(int)); i++) {}
