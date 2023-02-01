@@ -10,7 +10,7 @@ music used: https://th.bing.com/th/id/OIP.WAFq8KYjc9Vf0G57E6zVJQHaK1?pid=ImgDet&
 */
 
 // code to translate library's staff notation to jianpu notation
-const int note0 = 0；
+const int note0 = 0;
 const int note_5 = NOTE_G3;
 const int note_6 = NOTE_A4;
 const int note_7 = NOTE_B4;
@@ -49,7 +49,7 @@ int notes[] {
 
   note1_, note2_, note3_, note2_, note1_, note6, 
   note7, note6, note3, note5, note5, 
-  note1_, note2_, note3_, note2_, note1_, note6_, 
+  note1_, note2_, note3_, note2_, note1_, note6, 
 
   note7, note5, note3, note6, note6, 
   note5, note4, note3, note2, 
@@ -81,7 +81,7 @@ int notes[] {
 
   note1_, note2_, note3_, note2_, note1_, note6, 
   note7, note6, note3, note5, note5, 
-  note1_, note2_, note3_, note2_, note1_, note6_, 
+  note1_, note2_, note3_, note2_, note1_, note6, 
 
   note7, note5, note3, note6, note6, 
   note5, note4, note3, note2, 
