@@ -1,5 +1,5 @@
 /*
- * Video Link: https://youtu.be/URUwsnS-Y8M
+ * Video Link: https://youtu.be/nqI_Nxqm6pw
  * 
  * Original Song: 我和我的祖国 (My People, My Country)
  *  
@@ -273,14 +273,14 @@ void setup() {
 
 void loop() {
   for (int i = 0; i < (sizeof(notes)/sizeof(int)); i++) {
-    LEDHandler(0);
     if (notes[i] != 0) {
+      LEDHandler(0);
       tone(BUZZER_PIN, notes[i]);
-      LEDHandler(1);
     }
+    LEDHandler(1);
     delay((int)(333 * length[i]));
     noTone(BUZZER_PIN);
-    delay(50 * pauses[i]);
+    delay(100 * pauses[i]);
   }
   delay(5000);
 }
