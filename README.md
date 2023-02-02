@@ -29,10 +29,13 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   └───sketch_jan27a.ino
 ├───sketch_jan30a
 │   └───sketch_jan30a.ino
-└───sketch_jan31a
+├───sketch_jan31a
+│   ├───pitches.h
+│   ├───sketch_jan31a.ino
+│   └───testingSongNotes.cpp
+└───sketch_feb01a
     ├───pitches.h
-    ├───sketch_jan31a.ino
-    └───testingSongNotes.cpp
+    └───sketch_feb01a.ino
 ```
 
 </details>
@@ -78,3 +81,5 @@ Digital input with two buttons. One button turns the LED on, and one button turn
 Digital input with two buttons, again. One button simultaneously turns the LED on and speaker off, and one button simultaneously turns the LED off and speaker on.
 ### jan31a
 Playing a passive buzzer. The melody is terrible, but it sets up the infrastructure code.
+### feb01a
+Using the infrastructure code from `sketch_jan31a.ino` and the composition from `testingSongNotes.cpp`, the melody of “我和我的祖国” ("My People, My Country") is played, syncing each note played with a pair of LED lights lighting up.
