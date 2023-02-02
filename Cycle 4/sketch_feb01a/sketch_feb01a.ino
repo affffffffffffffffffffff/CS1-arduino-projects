@@ -1,13 +1,17 @@
 /*
  * Video Link: 
  * 
+ * Original Song: 我和我的祖国 (My People, My Country)
+ *  
  */
+
+// Actual code after declarations starts on line 263
 
 #include "pitches.h"
 
 // declare pins
 #define BUZZER_PIN 2
-int ledCounter = 3;
+int ledCounter = 2;
 
 // code to translate library's staff notation to jianpu notation
 const int note0 = 0;
@@ -179,10 +183,8 @@ double length[] {
   6
 };
 
-// use this to define breath change and rests
-// no pause = 0
-// pause = 1
-double pause[] {
+// use this to define breath change and rests where no pause = 0 and pause = 1
+int pauses[] {
   0, 0, 0, 0, 0, 0, 
   0, 1, 
   0, 0, 0, 0, 0, 0,
@@ -258,7 +260,6 @@ double pause[] {
   1
 };
 
-
 void setup() {
   // put your setup code here, to run once:
   pinMode(3, OUTPUT);
@@ -271,16 +272,15 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   for (int i = 0; i < (sizeof(notes)/sizeof(int)); i++) {
+    LEDHandler(0);
     if (notes[i] != 0) {
       tone(BUZZER_PIN, notes[i]);
       LEDHandler(1);
     }
     delay((int)(333 * length[i]));
     noTone(BUZZER_PIN);
-    delay((int)(pause[i] * 50));
-    LEDHandler(0);
+    delay(50 * pauses[i]);
   }
   delay(5000);
 }
