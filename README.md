@@ -33,13 +33,19 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───pitches.h
 │   ├───sketch_jan31a.ino
 │   └───testingSongNotes.cpp
-└───sketch_feb01a
+├───sketch_feb01a
 │   ├───pitches.h
 │   └───sketch_feb01a.ino
-└───musicProj
-    ├───Music_020723_pd4.ino
-    ├───MusicImg1_020723_pd4.ino
-    └───MusicImg2_020723_pd4.ino
+├───musicProj
+│   ├───Music_020723_pd4.ino
+│   ├───MusicImg1_020723_pd4.ino
+│   └───MusicImg2_020723_pd4.ino
+├───sketch_feb08a.ino
+│   └───sketch_feb08a.ino
+└───sketch_feb08b.ino
+    ├───sketch_feb08a.ino
+    ├───SR04.cpp
+    └───SR04.h
 ```
 
 </details>
@@ -89,3 +95,7 @@ Playing a passive buzzer. The melody is terrible, but it sets up the infrastruct
 Using the infrastructure code from `sketch_jan31a.ino` and the composition from `testingSongNotes.cpp`, the melody of “我和我的祖国” ("My People, My Country") is played, syncing each note played with a pair of LED lights lighting up.
 ### musicProj
 Final files submitted for the music project mentioned in `feb01a`. The header file was not included as it was implied.
+### feb08a
+Make a servo move.
+## feb08b
+Read the output of an ultrasonic sensor.
