@@ -34,8 +34,12 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───sketch_jan31a.ino
 │   └───testingSongNotes.cpp
 └───sketch_feb01a
-    ├───pitches.h
-    └───sketch_feb01a.ino
+│   ├───pitches.h
+│   └───sketch_feb01a.ino
+└───musicProj
+    ├───Music_020723_pd4.ino
+    ├───MusicImg1_020723_pd4.ino
+    └───MusicImg2_020723_pd4.ino
 ```
 
 </details>
@@ -83,3 +87,5 @@ Digital input with two buttons, again. One button simultaneously turns the LED o
 Playing a passive buzzer. The melody is terrible, but it sets up the infrastructure code.
 ### feb01a
 Using the infrastructure code from `sketch_jan31a.ino` and the composition from `testingSongNotes.cpp`, the melody of “我和我的祖国” ("My People, My Country") is played, syncing each note played with a pair of LED lights lighting up.
+### musicProj
+Final files submitted for the music project mentioned in `feb01a`. The header file was not included as it was implied.
