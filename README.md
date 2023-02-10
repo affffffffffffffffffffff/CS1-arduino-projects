@@ -42,8 +42,12 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   └───MusicImg2_020723_pd4.ino
 ├───sketch_feb08a.ino
 │   └───sketch_feb08a.ino
-└───sketch_feb08b.ino
-    ├───sketch_feb08a.ino
+├───sketch_feb08b.ino
+│   ├───sketch_feb08a.ino
+│   ├───SR04.cpp
+│   └───SR04.h
+└───sketch_feb10a.ino
+    ├───sketch_feb10a.ino
     ├───SR04.cpp
     └───SR04.h
 ```
@@ -99,3 +103,5 @@ Final files submitted for the music project mentioned in `feb01a`. The header fi
 Make a servo move.
 ## feb08b
 Read the output of an ultrasonic sensor.
+## feb10a
+Make a servo point to an LED that turns on, depending on the distance read by an ultrasonic sensor.
