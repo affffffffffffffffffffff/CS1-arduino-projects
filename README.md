@@ -46,10 +46,12 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───sketch_feb08a.ino
 │   ├───SR04.cpp
 │   └───SR04.h
-└───sketch_feb10a.ino
-    ├───sketch_feb10a.ino
-    ├───SR04.cpp
-    └───SR04.h
+├───sketch_feb10a.ino
+│   ├───sketch_feb10a.ino
+│   ├───SR04.cpp
+│   └───SR04.h
+└───sketch_feb13a.ino
+    └───sketch_feb13a.ino
 ```
 
 </details>
@@ -105,3 +107,5 @@ Make a servo move.
 Read the output of an ultrasonic sensor.
 ## feb10a
 Make a servo point to an LED that turns on, depending on the distance read by an ultrasonic sensor.
+## feb13a
+Display the output of a joystick, but it should be like a coordinate plane in the first quadrant only.
