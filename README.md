@@ -59,10 +59,14 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   └───sketch_feb14a.ino
 ├───sketch_feb14b.ino
 │   └───sketch_feb14b.ino
-└───sketch_feb15a.ino
+├───sketch_feb15a.ino
+│   ├───LEDControl.cpp
+│   ├───LEDControl.h
+│   └───sketch_feb15a.ino
+└───sketch_feb15b.ino
     ├───LEDControl.cpp
     ├───LEDControl.h
-    └───sketch_feb15a.ino
+    └───sketch_feb15b.ino
 ```
 
 </details>
@@ -126,3 +130,5 @@ Receive IR signals and outpput to terminal.
 Correspond the joystick position to one of 9 LEDs arranged in a cross shape.
 ## feb15a
 Display a pattern using an LED Dot Matrix.
+## feb15b
+Have a phrase scroll across the LED Dot Matrix. Given phrase was "You are what you eat!"
