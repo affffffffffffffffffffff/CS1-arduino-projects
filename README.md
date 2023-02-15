@@ -52,11 +52,17 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   └───SR04.h
 ├───sketch_feb13a.ino
 │   └───sketch_feb13a.ino
-└───sketch_feb13a.ino
-    ├IRremote.cpp
-    ├IRremote.h
-    ├IRremoteInt.h
-    └───sketch_feb13a.ino
+├───sketch_feb14a.ino
+│   ├───IRremote.cpp
+│   ├───IRremote.h
+│   ├───IRremoteInt.h
+│   └───sketch_feb14a.ino
+├───sketch_feb14b.ino
+│   └───sketch_feb14b.ino
+└───sketch_feb15a.ino
+    ├───LEDControl.cpp
+    ├───LEDControl.h
+    └───sketch_feb15a.ino
 ```
 
 </details>
@@ -114,5 +120,9 @@ Read the output of an ultrasonic sensor.
 Make a servo point to an LED that turns on, depending on the distance read by an ultrasonic sensor.
 ## feb13a
 Display the output of a joystick, but it should be like a coordinate plane in the first quadrant only.
-##  feb14a
+## feb14a
 Receive IR signals and outpput to terminal.
+## feb14b
+Correspond the joystick position to one of 9 LEDs arranged in a cross shape.
+## feb15a
+Display a pattern using an LED Dot Matrix.
