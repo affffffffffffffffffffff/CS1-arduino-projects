@@ -118,17 +118,17 @@ Using the infrastructure code from `sketch_jan31a.ino` and the composition from 
 Final files submitted for the music project mentioned in `feb01a`. The header file was not included as it was implied.
 ### feb08a
 Make a servo move.
-## feb08b
+### feb08b
 Read the output of an ultrasonic sensor.
-## feb10a
+### feb10a
 Make a servo point to an LED that turns on, depending on the distance read by an ultrasonic sensor.
-## feb13a
+### feb13a
 Display the output of a joystick, but it should be like a coordinate plane in the first quadrant only.
-## feb14a
+### feb14a
 Receive IR signals and outpput to terminal.
-## feb14b
+### feb14b
 Correspond the joystick position to one of 9 LEDs arranged in a cross shape.
-## feb15a
+### feb15a
 Display a pattern using an LED Dot Matrix.
-## feb15b
+### feb15b
 Have a phrase scroll across the LED Dot Matrix. Given phrase was "You are what you eat!"
