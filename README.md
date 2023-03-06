@@ -135,3 +135,5 @@ Correspond the joystick position to one of 9 LEDs arranged in a cross shape.
 Display a pattern using an LED Dot Matrix.
 ### feb15b
 Have a phrase scroll across the LED Dot Matrix. Given phrase was "You are what you eat!"
+### mar06a
+Sync an Arduino's RTC module with your system time.
