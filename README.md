@@ -82,9 +82,15 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───DS3231.h
 │   └───sketch_mar06a.ino
 └───sketch_mar07a
+│   ├───LiquidCrystal.cpp
+│   ├───LiquidCrystal.h
+│   └───sketch_mar07a.ino
+└───sketch_mar08a
+    ├───DS3231.cpp
+    ├───DS3231.h
     ├───LiquidCrystal.cpp
     ├───LiquidCrystal.h
-    └───sketch_mar07a.ino
+    └───sketch_mar08a.ino
 ```
 
 </details>
@@ -143,3 +149,5 @@ Have a phrase scroll across the LED Dot Matrix. Given phrase was "You are what y
 Sync an Arduino's RTC module with your system time.
 ### mar07a
 Display text on an LCD screen. Blinks between the top/bottom rows.
+### mar08a
+Print the current date and time to an LCD screen. Row 1: `*hh:mm:ss    _M*`. Row 2: `*yyyy-MMdd  DDD*`
