@@ -86,11 +86,15 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───LiquidCrystal.h
 │   └───sketch_mar07a.ino
 └───sketch_mar08a
-    ├───DS3231.cpp
-    ├───DS3231.h
-    ├───LiquidCrystal.cpp
-    ├───LiquidCrystal.h
-    └───sketch_mar08a.ino
+│   ├───DS3231.cpp
+│   ├───DS3231.h
+│   ├───LiquidCrystal.cpp
+│   ├───LiquidCrystal.h
+│   └───sketch_mar08a.ino
+└───sketch_mar10a
+    ├───dht_nonblocking.cpp
+    ├───dht_nonblocking.h
+    └───sketch_mar10a.ino
 ```
 
 </details>
@@ -151,3 +155,5 @@ Sync an Arduino's RTC module with your system time.
 Display text on an LCD screen. Blinks between the top/bottom rows.
 ### mar08a
 Print the current date and time to an LCD screen. Row 1: `*hh:mm:ss    _M*`. Row 2: `*yyyy-MMdd  DDD*`
+### mar10a
+Gets the temperature and humidity.
