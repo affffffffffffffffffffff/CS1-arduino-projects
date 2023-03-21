@@ -95,14 +95,18 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───dht_nonblocking.cpp
 │   ├───dht_nonblocking.h
 │   └───sketch_mar10a.ino
-└───sketch_mar20a
-    ├───dht_nonblocking.cpp
-    ├───dht_nonblocking.h
-    ├───DS3231.cpp
-    ├───DS3231.h
-    ├───LiquidCrystal.cpp
-    ├───LiquidCrystal.h
-    └───sketch_mar20a.ino
+├───sketch_mar20a
+│   ├───dht_nonblocking.cpp
+│   ├───dht_nonblocking.h
+│   ├───DS3231.cpp
+│   ├───DS3231.h
+│   ├───LiquidCrystal.cpp
+│   ├───LiquidCrystal.h
+│   └───sketch_mar20a.ino
+└───sketch_mar21a
+    ├───MPU6050.cpp
+    ├───MPU6050.h
+    └───sketch_mar21a.ino
 ```
 
 </details>
@@ -167,3 +171,5 @@ Print the current date and time to an LCD screen. Row 1: `*hh:mm:ss    _M*`. Row
 Gets the temperature and humidity.
 ### mar20a
 Display date, time, temperature, and humidity on an LCD screen. Row 1: `mmdd hh:mm:ss _M`. Row 2: `www ##.#% ##.# F`
+### mar21a
+Use an accelerometer and a gyroscope.
