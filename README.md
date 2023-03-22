@@ -103,10 +103,12 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───LiquidCrystal.cpp
 │   ├───LiquidCrystal.h
 │   └───sketch_mar20a.ino
-└───sketch_mar21a
-    ├───MPU6050.cpp
-    ├───MPU6050.h
-    └───sketch_mar21a.ino
+├───sketch_mar21a
+│   ├───MPU6050.cpp
+│   ├───MPU6050.h
+│   └───sketch_mar21a.ino
+└───sketch_mar22a
+    └───sketch_mar22a.ino
 ```
 
 </details>
@@ -173,3 +175,5 @@ Gets the temperature and humidity.
 Display date, time, temperature, and humidity on an LCD screen. Row 1: `mmdd hh:mm:ss _M`. Row 2: `www ##.#% ##.# F`
 ### mar21a
 Use an accelerometer and a gyroscope.
+### mar22a
+Gradually spin up and spin down a DC motor, first clockwise then counterclockwise. Use a 5V power supply module.
