@@ -107,8 +107,12 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───MPU6050.cpp
 │   ├───MPU6050.h
 │   └───sketch_mar21a.ino
+├───sketch_mar22a
+│   └───sketch_mar22a.ino
 └───sketch_mar22a
-    └───sketch_mar22a.ino
+    ├───sketch_mar22a.ino
+    ├───Stepper.cpp
+    └───Stepper.h
 ```
 
 </details>
@@ -177,3 +181,5 @@ Display date, time, temperature, and humidity on an LCD screen. Row 1: `mmdd hh:
 Use an accelerometer and a gyroscope.
 ### mar22a
 Gradually spin up and spin down a DC motor, first clockwise then counterclockwise. Use a 5V power supply module.
+### mar23a
+Rotate a stepper motor using a 5V power supply module.
