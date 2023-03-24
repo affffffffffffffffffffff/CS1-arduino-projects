@@ -109,8 +109,15 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   └───sketch_mar21a.ino
 ├───sketch_mar22a
 │   └───sketch_mar22a.ino
-└───sketch_mar22a
-    ├───sketch_mar22a.ino
+├───sketch_mar23a
+│   ├───sketch_mar23a.ino
+│   ├───Stepper.cpp
+│   └───Stepper.h
+└───sketch_mar24a
+    ├───IRremote.cpp
+    ├───IRremote.h
+    ├───IRremoteInt.h
+    ├───sketch_mar24a.ino
     ├───Stepper.cpp
     └───Stepper.h
 ```
@@ -183,3 +190,5 @@ Use an accelerometer and a gyroscope.
 Gradually spin up and spin down a DC motor, first clockwise then counterclockwise. Use a 5V power supply module.
 ### mar23a
 Rotate a stepper motor using a 5V power supply module.
+### mar24a
+Control a stepper motor using an IR remote's volume up and volume down buttons.
