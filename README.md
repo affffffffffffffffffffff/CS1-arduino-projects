@@ -113,11 +113,17 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───sketch_mar23a.ino
 │   ├───Stepper.cpp
 │   └───Stepper.h
-└───sketch_mar24a
-    ├───IRremote.cpp
-    ├───IRremote.h
-    ├───IRremoteInt.h
-    ├───sketch_mar24a.ino
+├───sketch_mar24a
+│   ├───IRremote.cpp
+│   ├───IRremote.h
+│   ├───IRremoteInt.h
+│   ├───sketch_mar24a.ino
+│   ├───Stepper.cpp
+│   └───Stepper.h
+└───sketch_mar27a
+    ├───MPU6050.cpp
+    ├───MPU6050.h
+    ├───sketch_mar27a.ino
     ├───Stepper.cpp
     └───Stepper.h
 ```
