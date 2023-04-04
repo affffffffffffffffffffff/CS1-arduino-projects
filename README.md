@@ -120,12 +120,18 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───sketch_mar24a.ino
 │   ├───Stepper.cpp
 │   └───Stepper.h
-└───sketch_mar27a
-    ├───MPU6050.cpp
-    ├───MPU6050.h
-    ├───sketch_mar27a.ino
-    ├───Stepper.cpp
-    └───Stepper.h
+├───sketch_mar27a
+│   ├───MPU6050.cpp
+│   ├───MPU6050.h
+│   ├───sketch_mar27a.ino
+│   ├───Stepper.cpp
+│   └───Stepper.h
+└───sketch_apr04a
+    ├───Key.cpp
+    ├───Key.h
+    ├───Keypad.cpp
+    ├───Keypad.h
+    └───sketch_apr04a.ino
 ```
 
 </details>
@@ -200,3 +206,5 @@ Rotate a stepper motor using a 5V power supply module.
 Control a stepper motor using an IR remote's volume up and volume down buttons.
 ### mar27a
 A joystick controls a stepper motor, which moves from 0 - 90 degrees in intervals of 30 degrees. The joystick only STARTS the command — the stepper motor is STOPPED by an accelerometer/gyroscope module.
+### apr04a
+Read input data from a membrane keypad.
