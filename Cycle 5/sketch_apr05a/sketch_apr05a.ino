@@ -15,8 +15,9 @@
 
 // init
 Servo myservo;
-bool entry = true;
+bool entry = false;
 char password[6] = {'1', '2', '3', 'A', 'B', 'C'};
+int angle = 180;
 char customKey;
 const byte ROWS = 4; //four rows
 const byte COLS = 4; //four columns
@@ -44,19 +45,38 @@ void setup() {
   pinMode(L5, OUTPUT);
   pinMode(L6, OUTPUT);
   myservo.attach(10);
-  myservo.write(180);
+  myservo.write(angle);
 }
 
 void loop() {
-  // reset passwd check and servo
-  entry = true;
-  myservo.write(180);
   // reset lights & make RGB red
   for (int i = 0; i < 6; i++) {
     digitalWrite(22+i, LOW);
   }
   digitalWrite(R_PIN, 1);
   digitalWrite(G_PIN, 0);
+  // move door back and beep
+  if (entry) {
+    for (int i = 0; i < 5; i++) {
+      tone(11, 1000);
+      for (int j = 0; j < 4; j++) {
+        angle = angle + j * 4;
+        myservo.write(angle);
+        delay(150);
+      }
+      noTone(11);
+      for (int j = 0; j < 2; j++) {
+        angle = angle + j * 4;
+        myservo.write(angle);
+        delay(150);
+      }
+    }
+  }
+  // reset passwd check
+  entry = true;
+  // just in case
+  angle = 180;
+  myservo.write(angle);
   // main function
   for (int i = 0; i < 6; i++) {
       do {customKey = customKeypad.getKey();} // poll membrane for action
@@ -64,37 +84,43 @@ void loop() {
       if (customKey != password[i]) { // deny entry if any key is wrong
         entry = false;
       }
-      digitalWrite(22+i, HIGH); // light up LED to show numbers entered
+      digitalWrite(27-i, HIGH); // light up LED to show numbers entered
   }
   if (entry) {
     // set RGB to green
     digitalWrite(R_PIN, 0);
     digitalWrite(G_PIN, 1);
     // move servo
-    myservo.write(25);
-    // flash LED & start beep
+    //angle = 25;
+    //myservo.write(angle);
+    // flash LED
     for (int i = 0; i < 3; i++) {
       for (int j = 0; j < 6; j++) {
         digitalWrite(22+j, LOW);
       }
-      tone(11, 1000);
       delay(100);
       for (int j = 0; j < 6; j++) {
         digitalWrite(22+j, HIGH);
       }
-      delay(100);
-      noTone(11);
-      delay(75);
+      delay(200);
     }
-    // continue beeping
+    // beeping and move
     for (int i = 0; i < 5; i++) {
       tone(11, 1000);
-      delay(200);
+      for (int j = 0; j < 4; j++) {
+        angle = angle - j * 4;
+        myservo.write(angle);
+        delay(150);
+      }
       noTone(11);
-      delay(75);
+      for (int j = 0; j < 2; j++) {
+        angle = angle - j * 4;
+        myservo.write(angle);
+        delay(150);
+      }
     }
     // pause
-    delay(2000);
+    delay(4000);
   }
   else {
     // flash LED
@@ -107,5 +133,4 @@ void loop() {
     }
     delay(125);
   }
-  
 }
