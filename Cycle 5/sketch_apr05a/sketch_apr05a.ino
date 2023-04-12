@@ -1,3 +1,7 @@
+/* Video Link:
+ * https://youtu.be/RXEJFDj_mos
+ */
+
 // pin def
 #define L1 22
 #define L2 23
@@ -49,12 +53,6 @@ void setup() {
 }
 
 void loop() {
-  // reset lights & make RGB red
-  for (int i = 0; i < 6; i++) {
-    digitalWrite(22+i, LOW);
-  }
-  digitalWrite(R_PIN, 1);
-  digitalWrite(G_PIN, 0);
   // move door back and beep
   if (entry) {
     for (int i = 0; i < 5; i++) {
@@ -72,6 +70,12 @@ void loop() {
       }
     }
   }
+  // reset lights & make RGB red
+  for (int i = 0; i < 6; i++) {
+    digitalWrite(22+i, LOW);
+  }
+  digitalWrite(R_PIN, 1);
+  digitalWrite(G_PIN, 0);
   // reset passwd check
   entry = true;
   // just in case
@@ -90,20 +94,6 @@ void loop() {
     // set RGB to green
     digitalWrite(R_PIN, 0);
     digitalWrite(G_PIN, 1);
-    // move servo
-    //angle = 25;
-    //myservo.write(angle);
-    // flash LED
-    for (int i = 0; i < 3; i++) {
-      for (int j = 0; j < 6; j++) {
-        digitalWrite(22+j, LOW);
-      }
-      delay(100);
-      for (int j = 0; j < 6; j++) {
-        digitalWrite(22+j, HIGH);
-      }
-      delay(200);
-    }
     // beeping and move
     for (int i = 0; i < 5; i++) {
       tone(11, 1000);
@@ -120,7 +110,7 @@ void loop() {
       }
     }
     // pause
-    delay(4000);
+    delay(6000);
   }
   else {
     // flash LED
