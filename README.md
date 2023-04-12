@@ -126,12 +126,18 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 │   ├───sketch_mar27a.ino
 │   ├───Stepper.cpp
 │   └───Stepper.h
-└───sketch_apr04a
+├───sketch_apr04a
+│   ├───Key.cpp
+│   ├───Key.h
+│   ├───Keypad.cpp
+│   ├───Keypad.h
+│   └───sketch_apr04a.ino
+└───sketch_apr05a
     ├───Key.cpp
     ├───Key.h
     ├───Keypad.cpp
     ├───Keypad.h
-    └───sketch_apr04a.ino
+    └───sketch_apr05a.ino
 ```
 
 </details>
@@ -208,3 +214,5 @@ Control a stepper motor using an IR remote's volume up and volume down buttons.
 A joystick controls a stepper motor, which moves from 0 - 90 degrees in intervals of 30 degrees. The joystick only STARTS the command — the stepper motor is STOPPED by an accelerometer/gyroscope module.
 ### apr04a
 Read input data from a membrane keypad.
+### apr05a
+Use a membrane keypad to input a 6-character passcode. LEDs light up, indicating how many keys pressed. An RGB LED is red while the door is closed and green when the door is open. A servo opens and closes a door.
