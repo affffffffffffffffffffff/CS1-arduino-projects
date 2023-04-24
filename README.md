@@ -148,7 +148,8 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 </summary>
 
 ```
-null
+└───sketch_apr24a
+    └───sketch_apr24a.ino
 ```
 
 </details>
@@ -216,3 +217,5 @@ A joystick controls a stepper motor, which moves from 0 - 90 degrees in interval
 Read input data from a membrane keypad.
 ### apr05a
 Use a membrane keypad to input a 6-character passcode. LEDs light up, indicating how many keys pressed. An RGB LED is red while the door is closed and green when the door is open. A servo opens and closes a door.
+### apr24a
+Use a microphone.
