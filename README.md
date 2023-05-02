@@ -148,8 +148,12 @@ Hosts all the Arduino projects for 4th Period Advanced CS1 Spring 2023 with Arma
 </summary>
 
 ```
-└───sketch_apr24a
-    └───sketch_apr24a.ino
+├───sketch_apr24a
+│   └───sketch_apr24a.ino
+└───sketch_apr30a
+    ├───LEDControl.cpp
+    ├───LEDControl.h
+    └───sketch_apr30a.ino
 ```
 
 </details>
@@ -219,3 +223,5 @@ Read input data from a membrane keypad.
 Use a membrane keypad to input a 6-character passcode. LEDs light up, indicating how many keys pressed. An RGB LED is red while the door is closed and green when the door is open. A servo opens and closes a door.
 ### apr24a
 Use a microphone.
+### apr30a
+Take the microphone voltage signal and show the level on a dot matrix screen (like what you'd see in video editing software for audio level).
